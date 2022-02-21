@@ -29,9 +29,7 @@ const LogInView = () => {
           autoCapitalize="none"
           autoCompleteType="email"
           autoCorrect={false}
-          autoFocus={true}
-          // inlineImageLeft={'email'}
-          // inlineImagePadding={5}
+          autoFocus={true}         
           keyboardType={'email-address'}
         />
         <TextInput
@@ -42,8 +40,6 @@ const LogInView = () => {
           autoCompleteType="password"
           autoCorrect={false}
           autoFocus={false}
-          // inlineImageLeft={'password'}
-          // inlineImagePadding={5}
           secureTextEntry={true}
         />
       </View>
@@ -76,38 +72,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#DDDDDD',
     padding: 10,
     marginTop: 5,
-
-    // flex: 1,
-    // justifyContent: 'center',
-    // marginTop: 10,
-    // alignItems: 'center',
-    // flexWrap: 'wrap',
-    // flex: 1,
-    // flexDirection: 'row',
-    // height: 20,
-    // backgroundColor: '#2196F3',
-    // marginTop: 8,
-    // marginBottom: 8,
   },
   input: {
-    // flex: 1,
-    // justifyContent: 'flex-start',
-    // alignItems: 'center',
-    // height: 5,
     alignItems: 'center',
-    padding: 10,
-    // margin: 15,
-    // backgroundColor: '#2196F3',
-    // width: 80,
+    padding: 10,   
   },
   container: {
     flex: 1,
     justifyContent: 'center',
     paddingHorizontal: 10,
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // borderBottomWidth: 1,
-    // borderBottomColor: ‘#000’
   },
 });
 
